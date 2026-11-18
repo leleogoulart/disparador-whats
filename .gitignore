@@ -1,0 +1,23 @@
+# Sessão autenticada do WhatsApp/Chrome
+sessao_whatsapp/
+
+# Contatos, resultados e segredos locais
+*.csv
+*.xlsx
+*.xls
+.env
+.env.*
+!.env.example
+
+# Ambiente Python e arquivos gerados
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.log
+*.zip
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
